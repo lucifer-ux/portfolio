@@ -1,0 +1,64 @@
+.project-tiles {
+  padding: 4rem 1rem;
+}
+
+.project-tiles__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-tiles__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-tile {
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile__image-wrapper {
+  position: relative;
+  height: 200px;
+}
+
+.project-tile__image {
+  object-fit: cover;
+}
+
+.project-tile__content {
+  padding: 1rem;
+}
+
+.project-tile__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.project-tile__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-tile__link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.project-tile__link--demo {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.project-tile__link--live {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
